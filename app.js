@@ -1,6 +1,8 @@
 import dotenv from 'dotenv';
 dotenv.config();
 
+import './src/database/connection.js';
+
 import express from 'express';
 import homeRoutes from './src/routes/home-routes.js';
 
